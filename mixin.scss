@@ -1,0 +1,58 @@
+@mixin nav{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: .4s;
+}
+@mixin nav-hover{
+  scale: 1.1;
+  color: #EEB563;
+}
+@mixin nav-a{
+  font-family: 'Inter',sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #FFFFFF;
+  transition: .4s;
+}
+@mixin nav-a--hover{
+  scale: 1.1;
+  color: #EEB563;
+  text-decoration-line: underline;
+}
+@mixin p{
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+@mixin btn{
+  padding: 15px 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+  background: transparent;
+  color: #FFFFFF;
+  transition: .4s;
+}
+@mixin btn-hover{
+  scale: 1.1;
+  border: none;
+  color: #15141A;
+  background: #EEB563;
+}
+@mixin h1{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #F1B864;
+}
+@mixin h2{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+
+}

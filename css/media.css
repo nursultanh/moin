@@ -1,0 +1,35 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 576px) {
+  #hero .hero--logo__glav--monkey__coedi {
+    display: none;
+  }
+}
+@media (max-width: 420px) {
+  #hero .hero--logo__text h2 {
+    font-size: 80px;
+  }
+}
+@media (max-width: 376px) {
+  #hero .hero--logo__text h2 {
+    font-size: 71px;
+  }
+  #hero .hero--logo__glav--monkey img {
+    width: 296px;
+  }
+}
+@media (max-width: 350px) {
+  #footer .footer--input__hov input {
+    width: 205px;
+  }
+}
+@media (max-width: 320px) {
+  #hero .hero--logo__text h2 {
+    font-size: 60px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
