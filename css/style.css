@@ -214,14 +214,14 @@ body {
   text-decoration-line: underline;
 }
 
-#hot .hot--logo h1 {
+#slide h1 {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 20px;
   color: #F1B864;
   text-align: center;
 }
-#hot .hot--logo h2 {
+#slide h2 {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 32px;
@@ -229,7 +229,22 @@ body {
   color: #FFFFFF;
   text-align: center;
 }
-#hot .hot--krujok {
+#slide .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#slide .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+}
+#slide .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+#slide--krujok {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
